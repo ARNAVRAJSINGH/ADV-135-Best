@@ -1,0 +1,46 @@
+body {
+  background-image: url("https://source.unsplash.com/random");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.form-control {
+  width: 300px;
+  height: 40px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.status {
+  margin-top: 20px;
+  color: white;
+}
+
+canvas {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  border: 1px solid black;
+}

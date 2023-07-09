@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Object Detection</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+</head>
+<body>
+  <center>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text-center">Object Detection</h1>
+        <p class="text-center">Enter the name of the object you want to detect, then click the "Start" button.</p>
+        <input type="text" class="form-control" id="objectName" placeholder="Enter object name">
+        <br> <br> <button class="btn btn-primary" onclick="start()">Start</button>
+        <br> <br><div class="status">Status</div>
+        <br> <br><div class="status">Object found?</div>
+        <canvas id="canvas" width="500" height="500"></canvas>
+      </div>
+    </div>
+  </div>
+</center>
+  <script src="main.js"></script>
+</body>
+</html>
